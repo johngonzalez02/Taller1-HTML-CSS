@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #f97316;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
