@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #3b82f6;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    outline: none;
+    background-color: #eff6ff;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.lista li {
+    padding: 10px;
+    background-color: #f3f4f6;
+    margin-bottom: 5px;
+}
+
+.lista li:first-child {
+    background-color: #22c55e;
+    color: white;
+    font-weight: bold;
+}
+
+.lista li:nth-child(odd) {
+    background-color: #e5e7eb;
+}
+
+.lista li:nth-child(even) {
+    background-color: #d1d5db;
+}
