@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Propiedad Display</h1>
+
+    <h2>Elementos div (normalmente son block)</h2>
+    <div class="caja-block">Div 1 - display: block</div>
+    <div class="caja-inline">Div 2 - display: inline</div>
+    <div class="caja-inline-block">Div 3 - display: inline-block</div>
+
+    <h2>Elementos span (normalmente son inline)</h2>
+    <span class="caja-block">Span 1 - display: block</span>
+    <span class="caja-inline">Span 2 - display: inline</span>
+    <span class="caja-none">Span 3 - display: none (no debería verse)</span>
+
+    <h2>Explicación de diferencias observadas</h2>
+    <p>
+        <!-- Aquí escribes tú, con tus propias palabras, lo que observaste -->
+        Al aplicar <code>display: block</code>, el elemento ocupa todo el ancho 
+        disponible y siempre empieza en una nueva línea. Con <code>display: inline</code>, 
+        el elemento solo ocupa el espacio de su contenido y se ubica en la misma línea 
+        que los elementos vecinos, sin permitir definir ancho o alto. Con 
+        <code>display: inline-block</code>, el elemento se comporta como inline 
+        (se ubica en la misma línea) pero sí permite definir ancho y alto, como block. 
+        Finalmente, <code>display: none</code> oculta completamente el elemento, 
+        como si no existiera en la página.
+    </p>
+
+</body>
+</html>
